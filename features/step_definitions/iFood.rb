@@ -54,5 +54,4 @@ Then("Eu vejo os campos habilitados para edicao") do
   find(:css, '.field5_semEndereco.streetNumber').set "1628"  
   find(:css, 'input[value="Buscar"]').click 
   expect(page).to have_content('Logradouro')
-  sleep 2
 end
